@@ -8,7 +8,7 @@ class JavaExample
 	System.out.println("Enter a character : ");
 	char ch=scanner.next().charAt(0); 
 	scanner.close();
-	switch ch)
+	switch(ch)
 	{
 	   case 'a' :
 	   case 'e' :
@@ -20,15 +20,15 @@ class JavaExample
 	   case 'I' :
 	   case 'O' :
 	   case 'U' : isVowel = true;
-	
-	if(isVowel = true) {
+	}
+	if(isVowel == true) {
 	   System.out.println(ch+" is  a Vowel");
 	}
 	else {
-	   if((ch='a'&&ch<='z')||(ch>='A'&ch<='Z'))
-		System.out.printl(ch+" is a Consonant");
+	   if((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+		System.out.println(ch+" is a Consonant");
 	   else
-		System.out.println(Input is not an alphabet");		
+		System.out.println("Input is not an alphabet");		
         }
    }
 }
